@@ -33,52 +33,49 @@
             font-size: 14px;
         }
 
-        .profile-card {
-            width: 500px;
-            margin: 50px auto;
-            border-radius: 15px;
-            overflow: hidden;
-            background: #fffaf0; 
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        .profpage {
+        position: relative;
+        height: 100vh;
+        background: radial-gradient(circle at center, rgba(0,0,0,0.2) 60%, rgba(0,0,0,10) 100%),;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
         }
+        
 
-        .banner {
-            height: 160px;
-            position: relative;
-            background-image: url('{{ asset('pictures/cat.jpg') }}');
-            background-size: cover;
-            background-position: center;
-        }
+    .btn-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: white;
+      font-size: 1.2rem;
+      transition: 0.3s;
+    }
 
-        .avatar {
-            width: 110px;
-            height: 110px;
-            border-radius: 50%;
-            border: 4px solid #fffaf0;
-            position: absolute;
-            bottom: -55px;
-            left: 30px;
-            background-size: cover;
-            background-position: center;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        }
+    .btn-circle:hover {
+      background: rgba(255,255,255,0.3);
+    }
+    body {
+      background-color: black;
+      background: linear-gradient(top to bottom, );
+    }
+    h3,p {
+      color: white;
+    }
 
         .content {
             padding: 70px 25px 25px;
         }
 
-        .content h2 {
-            font-weight: bold;
-            color: #5a4634; 
-        }
-
-        .content h4, .content h5 {
-            color: #8b6f47; 
-        }
-
-        .content p, .content ul {
-            color: #3a2e2e;
-        }
 
         hr {
             border: 0;
@@ -94,7 +91,7 @@
     </div>
 
     <footer>
-        <p> 2025 Our Biography Project | Designed with in Laravel</p>
+        <p> 2025 Artcommission project</p>
     </footer>
 
     

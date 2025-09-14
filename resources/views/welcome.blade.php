@@ -81,8 +81,7 @@
   </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-light">
-
+<nav class="navbar navbar-expand-sm bg-light">
   <div class="container-fluid">
     <!-- Links -->
     <ul class="navbar-nav">
@@ -97,7 +96,6 @@
       </li>
     </ul>
   </div>
-
 </nav>
 
   <h1></h1>
@@ -105,7 +103,7 @@
   <div class="card-container">
     
     <div class="card">
-      <img src="{{ asset('images/takopfp.jpg') }}" alt="Jacen">
+      <img src="{{ asset('images/takopfp.jpg') }}" alt="tako">
       <div class="card-body">
         <h5 class="card-title">Tako</h5>
         <p class="card-text">Click below to view.</p>
@@ -114,19 +112,19 @@
     </div>
 
         <div class="card">
-      <img src="{{ asset('images/takopfp.jpg') }}" alt="Jacen">
+      <img src="{{ asset('images/ashen.png') }}" alt="ashen">
       <div class="card-body">
-        <h5 class="card-title">Tako</h5>
+        <h5 class="card-title">Ashen</h5>
         <p class="card-text">Click below to view.</p>
-        <a href="{{ route('Artists.tako') }}" class="btn btn-custom">View</a>
+        <a href="{{ route('Artists.ashen') }}" class="btn btn-custom">View</a>
       </div>
     </div>
         <div class="card">
-      <img src="{{ asset('images/takopfp.jpg') }}" alt="Jacen">
+      <img src="{{ asset('images/artur.jpg') }}" alt="artur">
       <div class="card-body">
-        <h5 class="card-title">Tako</h5>
+        <h5 class="card-title">Artur-link</h5>
         <p class="card-text">Click below to view.</p>
-        <a href="{{ route('Artists.tako') }}" class="btn btn-custom">View</a>
+        <a href="{{ route('Artists.artur') }}" class="btn btn-custom">View</a>
       </div>
     </div>
     
