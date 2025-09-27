@@ -111,7 +111,7 @@
       </div>
     </div>
 
-        <div class="card">
+    <div class="card">
       <img src="{{ asset('images/ashen.png') }}" alt="ashen">
       <div class="card-body">
         <h5 class="card-title">Ashen</h5>
@@ -119,7 +119,8 @@
         <a href="{{ route('Artists.ashen') }}" class="btn btn-custom">View</a>
       </div>
     </div>
-        <div class="card">
+    
+    <div class="card">
       <img src="{{ asset('images/artur.jpg') }}" alt="artur">
       <div class="card-body">
         <h5 class="card-title">Artur-link</h5>
@@ -128,7 +129,7 @@
       </div>
     </div>
     
-        <div class="card">
+    <div class="card">
       <img src="{{ asset('images/takopfp.jpg') }}" alt="Jacen">
       <div class="card-body">
         <h5 class="card-title">Tako</h5>
@@ -136,7 +137,9 @@
         <a href="{{ route('Artists.tako') }}" class="btn btn-custom">View</a>
       </div>
     </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.
 
 
-
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
